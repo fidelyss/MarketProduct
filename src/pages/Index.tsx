@@ -288,7 +288,7 @@ const Index = () => {
               <form onSubmit={handleEmailSubmit} className="space-y-4">
                 <Input
                   type="name"
-                  placeholder="Enter your name address"
+                  placeholder="Enter your name"
                   value={email.name}
                   onChange={e => setEmail(prev => ({ ...prev, name: e.target.value }))}
                   className="text-lg py-3 px-4"
